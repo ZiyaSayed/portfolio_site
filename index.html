@@ -4,27 +4,61 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
 
-    <title>Hello, world!</title>
+    <title>FrontEnd Portfolio Project</title>
   </head>
   <body>
-      <!--Navbar starts here-->
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+    <!--Navbar starts here-->
+    <nav class="py-3 navbar navbar-expand-lg navbar-light fixed-top auto-hiding-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ziya Sayed</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            
         </div>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    </nav>
+    <!-- Navbar Ends here -->
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Ziya <br> Sayed</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim efficitur elit sed dignissim. Morbi sed orci massa. 
+              Aenean euismod elit erat. Nullam sed felis feugiat, lobortis massa ac, suscipit lacus. Quisque erat diam, volutpat non magna et, aliquet hendrerit mauris.
+              Donec placerat velit a commodo fermentum. Vestibulum vitae urna in leo volutpat blandit. Donec vitae odio feugiat, interdum leo id, gravida lectus. 
+              Ut sed cursus lacus. Etiam sed libero aliquet sapien dignissim facilisis. 
+              Nunc vitae nibh luctus, dignissim elit sit amet, semper urna. Maecenas justo odio, mollis ac odio eu, semper imperdiet dui.
+            </p>
+            <button type="button" class="btn btn-dark btn-lg">Large button</button>
+          </div>
+          <div class="col img-col">
+            <img src="Untitled design.jpg" class="img-fluid">
+          </div>
         </div>
-      </nav>
+      </div>
+    </section>
+    <!-- End Hero Section -->
 
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
