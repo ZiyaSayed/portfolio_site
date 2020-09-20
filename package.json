@@ -1,0 +1,29 @@
+{
+  "name": "portfolio_site-1",
+  "version": "1.0.0",
+  "description": "This is my first portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZiyaSayed/portfolio_site.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Ziya Sayed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZiyaSayed/portfolio_site/issues"
+  },
+  "homepage": "https://github.com/ZiyaSayed/portfolio_site#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
+  }
+}
