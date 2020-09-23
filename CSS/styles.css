@@ -49,3 +49,8 @@ button{
     max-width: 130%;
     width: 130%;
 }
+.btn-more
+{
+    float: right;
+    margin: 10px;
+}
